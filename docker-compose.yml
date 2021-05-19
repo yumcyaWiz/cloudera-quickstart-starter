@@ -1,0 +1,14 @@
+version: "3"
+services:
+  cloudera-quickstart:
+    build: "./"
+    image: "cloudera-quickstart-starter"
+    container_name: "cloudera-quickstart-starter"
+    volumes: 
+      - "./work:/root/work"
+    hostname: "quickstart.cloudera"
+    ports:
+      - "8888:8888"
+      - "8088:8088"
+      - "7180:7180"
+      - "80:80"
