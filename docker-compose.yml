@@ -3,7 +3,6 @@ services:
   cloudera-quickstart:
     build: "./"
     image: "cloudera-quickstart-starter"
-    container_name: "cloudera-quickstart-starter"
     volumes: 
       - "./work:/root/work"
     hostname: "quickstart.cloudera"
