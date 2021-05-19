@@ -12,6 +12,5 @@ more simple starter kit for [cloudera/quickstart](https://hub.docker.com/r/cloud
 ## Usage
 
 ```
-docker-compose up -d
-docker exec -it cloudera-quickstart-starter bash
+docker-compose run cloudera-quickstart-starter
 ```
