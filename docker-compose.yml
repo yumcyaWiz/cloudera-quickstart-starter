@@ -1,6 +1,6 @@
 version: "3"
 services:
-  cloudera-quickstart:
+  cloudera-quickstart-starter:
     build: "./"
     image: "cloudera-quickstart-starter"
     volumes: 
